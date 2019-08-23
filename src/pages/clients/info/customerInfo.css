@@ -1,0 +1,828 @@
+/*! CSS Used from: https://rule.neemia.fi/css/old-globals.css */
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+option,
+select,
+textarea,
+button {
+    font-size: 13px;
+}
+
+button {
+    line-height: 20px;
+    padding: 3px 6px 4px;
+}
+
+textarea {
+    padding: 2px;
+}
+
+input[type=text],
+option {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+select {
+    padding: 3px;
+    border-radius: 3px;
+}
+
+textarea {
+    border-radius: 3px;
+}
+
+input {
+    vertical-align: middle;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/style.css */
+
+
+/*! @import https://rule.neemia.fi/css/flexselect.css */
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/flexselect.css */
+
+.inputParent {
+    position: relative;
+}
+
+span.loadingicon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    background-image: url('https://rule.neemia.fi/img/loading_small.gif');
+    background-position: 50% 50%;
+}
+
+span.emptyText {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+/*! end @import */
+
+
+/*! @import https://rule.neemia.fi/css/common.css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Tahoma, Geneva, sans-serif;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+}
+
+td,
+th {
+    padding: 2px 6px 2px 4px;
+}
+
+th {
+    font-size: small;
+    font-weight: normal;
+}
+
+#menu_level2 {
+    font-size: 15px;
+}
+
+ul.buttons_navigate_lvl_2 {
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.buttons_navigate_lvl_2 li {
+    display: inline;
+    list-style: none;
+}
+
+.buttons_navigate_lvl_2 li a {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    background-image: none;
+}
+
+.buttons_navigate_lvl_2 li a span {
+    color: #fff;
+}
+
+.buttons_navigate_lvl_2 li a:hover span {
+    color: #0070B2;
+    background-image: none;
+}
+
+.buttons_navigate_lvl_2 li.selected_item {
+    display: inline;
+    list-style: none;
+}
+
+.buttons_navigate_lvl_2 li.selected_item a span {
+    color: #22ADFF;
+}
+
+a:link {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+a:hover {
+    color: #0070B2;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    color: #22ADFF;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu_level2 {
+    margin: 0px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#menu_level2 {
+    background-color: #505050;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#div_innercontent {
+    margin: 0 auto;
+}
+
+#div_content {
+    padding: 10px;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+
+/*! end @import */
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/buttons.css */
+
+.basicButton {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    margin-bottom: 1px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.basicButton {
+    padding: .55em 0.7em .5em;
+    line-height: 1em;
+}
+
+.basicButton:hover {
+    text-decoration: none;
+}
+
+.basicButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.basicButton:focus {
+    position: relative;
+    top: 1px;
+}
+
+.basicButton:disabled,
+.basicButton:disabled:hover,
+.basicButton:disabled:active,
+.basicButton:disabled:focus {
+    color: #757575!important;
+    background: #F0F0F0!important;
+    position: relative;
+    top: 0;
+    cursor: default;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    border: solid 1px #b7b7b7!important;
+}
+
+.leftIcon span {
+    position: absolute;
+    top: 6px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-position: 50% 50%;
+    background-repeat: none;
+}
+
+.leftIcon {
+    padding: .75em 0.7em .7em 2.4em;
+}
+
+.leftIcon span {
+    left: 5px;
+}
+
+.whiteButton {
+    color: #333333!important;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top, #fff, #ededed);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+
+.whiteButton:hover {
+    color: #333333!important;
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top, #fff, #dcdcdc);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+    border-color: #9A9A9A;
+}
+
+.whiteButton:active {
+    color: #333333!important;
+    -webkit-box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 1), inset 0 0px 1px rgba(0, 0, 0, 1)!important;
+    -moz-box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 1), inset 0 0px 1px rgba(0, 0, 0, 1)!important;
+    box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 1), inset 0 0px 1px rgba(0, 0, 0, 1)!important;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/flexselect.css */
+
+.inputParent {
+    position: relative;
+}
+
+span.loadingicon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    background-image: url('https://rule.neemia.fi/img/loading_small.gif');
+    background-position: 50% 50%;
+}
+
+span.emptyText {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/customer_register.css */
+
+.customerContent p {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.c-table td,
+.c-table th {
+    font-size: 12px;
+}
+
+.customerLeft {
+    width: 315px;
+    float: left;
+    position: fixed;
+}
+
+.customerBar {
+    height: 33px;
+    background: url("https://rule.neemia.fi/img/customerLeftBar2.png") 0 0 repeat-x;
+    border: solid #7A7A7A;
+    border-width: 1px 1px 0;
+    position: relative;
+}
+
+#customerSearch {
+    margin: 2px 0 0 4px;
+    padding: 4px 5px 4px 27px;
+    width: 170px;
+    height: 17px;
+    position: relative;
+    font-size: 13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    background-image: url('https://rule.neemia.fi/img/icons/113.gif');
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+
+#c-new_customer {
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    background-image: url('https://rule.neemia.fi/img/icons/irc-join.ico');
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+
+.customerListContainer {
+    padding: 1px 0 0 0;
+    border-right: 1px solid #D0D0D0;
+    border-left: 1px solid #D0D0D0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+ul.customerList li {
+    list-style: none;
+    padding: 5px 0 5px 3px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.branch-not-selected {
+    border-bottom: 2px solid #EAEAEA;
+}
+
+.branch-not-selected:hover {
+    background-color: #F3F3F3;
+}
+
+.branch-selected,
+.branch-selected:hover {
+    background-color: #DEE6F5;
+}
+
+ul.customerList li p {
+    display: block;
+    line-height: 15px;
+    padding: 0;
+}
+
+ul.customerList li div.customerListItem {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0 0 15px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: #4873B6;
+}
+
+.has_overdue_invoices {
+    border-color: #CD596B!important;
+}
+
+.customerCompany {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.customerContact {
+    color: #5F5F5F;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 0 2px 0;
+}
+
+.customerTotalCount {
+    background-color: #F0F0F0;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+    padding: 3px;
+}
+
+.darktheme {
+    overflow-y: hidden !important;
+}
+
+body {
+    position: relative;
+}
+
+.dark {
+    overflow: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.customerContent {
+    min-height: 100%;
+}
+
+.contentRight {
+    margin: 0 0 0 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 430px;
+    /* padding-bottom: 20%; */
+}
+
+#customerContainer {
+    width: 100%;
+}
+
+span.loadingicon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    background-image: url('https://rule.neemia.fi/img/loading_small.gif');
+    background-position: 50% 50%;
+}
+
+.formContainer div h2 {
+    margin-bottom: 20px;
+}
+
+.formContainer div h2 #delete_customer {
+    float: right;
+}
+
+.formContainer div h2 #delete_customer span {
+    background-image: url('https://rule.neemia.fi/img/icons/004_1.gif');
+}
+
+.formContainer textarea,
+.formContainer select,
+.formContainer option {
+    padding: 2px 3px;
+}
+
+.formContainer textarea,
+.formContainer select {
+    border: 1px solid #858585;
+    border-color: #888 #BBB #BBB;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    transition: border 0.05s linear 0s, box-shadow 0.05s linear 0s;
+    -moz-transition: border 0.05s linear 0s, box-shadow 0.05s linear 0s;
+    -webkit-transition: border 0.05s linear 0s, box-shadow 0.05s linear 0s;
+    -o-transition: border 0.05s linear 0s, box-shadow 0.05s linear 0s;
+}
+
+.formContainer textarea:focus,
+.formContainer select:focus {
+    border-color: #52a9eb;
+    -moz-box-shadow: 0 0 3px #7abaeb;
+    -webkit-box-shadow: 0 0 3px #7abaeb;
+    -o-box-shadow: 0 0 3px #7abaeb;
+    box-shadow: 0 0 3px #7abaeb;
+    outline: none;
+}
+
+ul#c-nav {
+    list-style: none;
+    margin: 0!important;
+    padding: 0;
+    border-bottom: 1px solid #B4B4B4;
+    display: block;
+}
+
+ul#c-nav li {
+    display: inline;
+    text-indent: 0;
+    padding: 0;
+    margin: 0!important;
+    line-height: 16px;
+}
+
+ul#c-nav li a {
+    float: left;
+    background: #EFEFEF;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #555;
+    margin: 1px -1px -1px 0;
+    padding: 5px 10px;
+    border: 1px solid #B4B4B4;
+    background-image: linear-gradient(bottom, #EAEAEA 35%, #EFEFEF 68%);
+    background-image: -o-linear-gradient(bottom, #EAEAEA 35%, #EFEFEF 68%);
+    background-image: -moz-linear-gradient(bottom, #EAEAEA 35%, #EFEFEF 68%);
+    background-image: -webkit-linear-gradient(bottom, #EAEAEA 35%, #EFEFEF 68%);
+    background-image: -ms-linear-gradient(bottom, #EAEAEA 35%, #EFEFEF 68%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.35, #EAEAEA), color-stop(0.68, #EFEFEF));
+}
+
+ul#c-nav li.selected a {
+    margin-top: 0;
+    background: #FFFFFF;
+    height: 17px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+ul#c-nav li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.c-table th,
+.c-table td,
+.c-left h3,
+.c-right h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#c-data {
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+#new_address {
+    margin: 0 0 25px 0;
+}
+
+h3.c-section_header {
+    color: black;
+    font-size: 125%;
+    padding-bottom: 3px;
+    border-bottom: solid 1px #509FCF;
+    position: relative;
+    margin: 0 0 15px;
+}
+
+h3.c-section_header a {
+    float: right;
+    margin-right: 10px;
+}
+
+.c-left,
+.c-right {
+    float: left;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -icab-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 48%;
+    max-width: 420px;
+}
+
+.c-left {
+    margin: 0 25px 10px 0;
+}
+
+.c-right {
+    margin: 0;
+}
+
+.c-table {
+    margin-bottom: 20px;
+}
+
+.c-table>* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+.c-table th {
+    font-weight: bold;
+    padding: 0 5px 5px 5px;
+    text-align: left;
+}
+
+.c-table td {
+    padding: 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.c-table textarea {
+    width: 345px;
+    max-width: 345px;
+    max-height: 400px;
+}
+
+.c-table th.middle_header {
+    padding-top: 10px;
+}
+
+td.textarea-title {
+    vertical-align: top;
+}
+
+#address_container>* {
+    margin: 0 0 25px;
+}
+
+.edit_icon,
+#c-new_contact {
+    display: block;
+    float: right;
+    margin: 0 3px 0 6px;
+    width: 16px;
+    height: 16px;
+    background-image: url('https://rule.neemia.fi/img/icons/005b.gif');
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+
+#c-new_contact {
+    background-image: url('https://rule.neemia.fi/img/icons/multisend.ico');
+}
+
+.c-edit_small {
+    background-image: url('https://rule.neemia.fi/img/icons/005s.gif');
+    margin-right: 4px;
+}
+
+.c-delete_small {
+    background-image: url('https://rule.neemia.fi/img/icons/004_1.gif');
+}
+
+.c-edit_small,
+.c-delete_small {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    z-index: 20;
+    cursor: pointer;
+    background-position: 50% 50%;
+}
+
+.c-edit_small {
+    margin: 0 22px 0 0;
+}
+
+.c-delete_small {
+    margin: 0 3px 0 0;
+}
+
+#c-new_customer {
+    zoom: 1;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    -khtml-opacity: 0.9;
+    -moz-opacity: 0.9;
+}
+
+.customer_icon {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+}
+
+.customer_icon:hover,
+#c-new_customer:hover {
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -khtml-opacity: 1;
+    -moz-opacity: 1;
+}
+
+.c-edit_contacts {
+    float: left;
+    width: 85%;
+}
+
+.c-edit_contacts,
+.contact_edit_form {
+    margin: 0 0 25px;
+}
+
+.c-contacts {
+    position: relative;
+}
+
+span.emptyText {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

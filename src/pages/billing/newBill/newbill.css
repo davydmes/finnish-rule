@@ -1,0 +1,614 @@
+/*! CSS Used from: https://rule.neemia.fi/css/jquery-ui.min.css */
+
+.padding-30 {
+    padding: 0 30px;
+}
+
+#div_content {
+    padding-bottom: 50px !important;
+}
+
+.ui-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -.25em;
+    position: relative;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.ui-button {
+    padding: .4em 1em;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: visible;
+}
+
+.ui-button,
+.ui-button:link,
+.ui-button:visited,
+.ui-button:hover,
+.ui-button:active {
+    text-decoration: none;
+}
+
+.ui-button-icon-only {
+    width: 2em;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    white-space: nowrap;
+}
+
+.ui-button-icon-only .ui-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+button.ui-button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.ui-widget {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.ui-state-default,
+.ui-button {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}
+
+.ui-button {
+    color: #454545;
+    text-decoration: none;
+}
+
+.ui-button:hover,
+.ui-button:focus {
+    border: 1px solid #ccc;
+    background: #ededed;
+    font-weight: normal;
+    color: #2b2b2b;
+}
+
+.ui-button:active {
+    border: 1px solid #003eff;
+    background: #007fff;
+    font-weight: normal;
+    color: #fff;
+}
+
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.ui-icon {
+    background-image: url("https://rule.neemia.fi/css/images/ui-icons_444444_256x240.png");
+}
+
+.ui-button:hover .ui-icon,
+.ui-button:focus .ui-icon {
+    background-image: url("https://rule.neemia.fi/css/images/ui-icons_555555_256x240.png");
+}
+
+.ui-button:active .ui-icon {
+    background-image: url("https://rule.neemia.fi/css/images/ui-icons_ffffff_256x240.png");
+}
+
+.ui-button .ui-icon {
+    background-image: url("https://rule.neemia.fi/css/images/ui-icons_777777_256x240.png");
+}
+
+.ui-icon-triangle-1-s {
+    background-position: -65px -16px;
+}
+
+.ui-icon-gear {
+    background-position: -192px -112px;
+}
+
+.ui-icon-plus {
+    background-position: -16px -128px;
+}
+
+.ui-icon-closethick {
+    background-position: -96px -128px;
+}
+
+.ui-corner-all {
+    border-top-left-radius: 3px;
+}
+
+.ui-corner-all {
+    border-top-right-radius: 3px;
+}
+
+.ui-corner-all {
+    border-bottom-left-radius: 3px;
+}
+
+.ui-corner-all {
+    border-bottom-right-radius: 3px;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/old-globals.css */
+
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+option,
+select,
+textarea,
+button {
+    font-size: 13px;
+}
+
+input[type=submit],
+button {
+    line-height: 20px;
+    padding: 3px 6px 4px;
+}
+
+textarea {
+    padding: 2px;
+}
+
+input[type=text],
+option {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+select {
+    padding: 3px;
+    border-radius: 3px;
+}
+
+textarea {
+    border-radius: 3px;
+}
+
+input {
+    vertical-align: middle;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/style.css */
+
+
+/*! @import https://rule.neemia.fi/css/flexselect.css */
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/flexselect.css */
+
+.inputParent {
+    position: relative;
+}
+
+span.loadingicon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    background-image: url('https://rule.neemia.fi/img/loading_small.gif');
+    background-position: 50% 50%;
+}
+
+span.emptyText {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+/*! end @import */
+
+
+/*! @import https://rule.neemia.fi/css/common.css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Tahoma, Geneva, sans-serif;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    padding: 2px 6px 2px 4px;
+}
+
+hr {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.step4_table {
+    margin: 0px auto 10px 0px;
+}
+
+table.step4_table tr td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+tr.gap_row td {
+    height: 2px;
+}
+
+img {
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#div_content {
+    padding: 10px;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.page_header {
+    margin: 5px 0px;
+    height: 28px;
+    background-color: #C4D9FE;
+    border: 1px solid #90BCFD;
+    padding: 0px;
+    padding-top: 5px;
+}
+
+.page_header h2 {
+    margin: 0px;
+    color: #404050;
+    vertical-align: bottom;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ui-datepicker-trigger {
+    cursor: pointer;
+}
+
+div.table_header {
+    background: #B4B4B4;
+    border: 0px solid #616161;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 25px;
+    margin: 30px 0 0;
+    background-image: linear-gradient(bottom, #A6A6A6 11%, #C5C5C5 61%);
+    background-image: -o-linear-gradient(bottom, #A6A6A6 11%, #C5C5C5 61%);
+    background-image: -moz-linear-gradient(bottom, #A6A6A6 11%, #C5C5C5 61%);
+    background-image: -webkit-linear-gradient(bottom, #A6A6A6 11%, #C5C5C5 61%);
+    background-image: -ms-linear-gradient(bottom, #A6A6A6 11%, #C5C5C5 61%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.11, #A6A6A6), color-stop(0.61, #C5C5C5));
+}
+
+div.table_header p {
+    font-weight: bold;
+    padding: 7px 0 0 6px;
+    text-align: left;
+    color: #383838;
+}
+
+div.table_container {
+    border: solid #999999;
+    border-width: 1px;
+    border-bottom: 1px solid #7B7B7B;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+}
+
+div.table_container td {
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+
+tr.column_titles td {
+    padding: 3px 0 3px 5px;
+    border: solid #BBBBBB;
+    border-width: 0 0px 1px 0;
+    background: #F2F2F2;
+    background-image: linear-gradient(bottom, rgb(217, 217, 217) 100%, rgb(0, 0, 0) 100%, rgb(242, 242, 242) 18%);
+    background-image: -o-linear-gradient(bottom, rgb(217, 217, 217) 100%, rgb(0, 0, 0) 100%, rgb(242, 242, 242) 18%);
+    background-image: -moz-linear-gradient(bottom, rgb(217, 217, 217) 100%, rgb(0, 0, 0) 100%, rgb(242, 242, 242) 18%);
+    background-image: -webkit-linear-gradient(bottom, rgb(217, 217, 217) 100%, rgb(0, 0, 0) 100%, rgb(242, 242, 242) 18%);
+    background-image: -ms-linear-gradient(bottom, rgb(217, 217, 217) 100%, rgb(0, 0, 0) 100%, rgb(242, 242, 242) 18%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(1, rgb(217, 217, 217)), color-stop(1, rgb(0, 0, 0)), color-stop(0.18, rgb(242, 242, 242)));
+}
+
+td.table_button {
+    text-align: center;
+    width: 60px;
+}
+
+tr.shipping_row td,
+tr.lasku_row td {
+    padding: 7px 0 7px 5px;
+}
+
+#lasku_add_row {
+    margin: 10px 0 0;
+}
+
+div.actionsList {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background-color: #F2F2F2;
+    width: 150px;
+}
+
+div.actionsList ul {
+    list-style: none;
+    padding: 1px 0;
+    border: 1px solid #999999;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+}
+
+div.actionsList ul li {
+    text-align: left;
+    padding: 6px 8px;
+    cursor: pointer;
+    border: solid #F2F2F2;
+    border-width: 1px 0;
+    color: #474747;
+}
+
+div.actionsList ul li.implemented:hover {
+    background: #E8E8E8;
+    border: solid #EEEEEE;
+    border-width: 1px 0;
+}
+
+.toggle_hide_row_label {
+    padding: 7px;
+}
+
+
+/*! end @import */
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/buttons.css */
+
+.basicButton {
+    display: inline-block;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 12px/100% Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    margin-bottom: 1px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.basicButton,
+.basicButton {
+    padding: .55em 0.7em .5em;
+    line-height: 1em;
+}
+
+.basicButton:hover {
+    text-decoration: none;
+}
+
+.basicButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.basicButton:focus {
+    position: relative;
+    top: 1px;
+}
+
+.basicButton:disabled,
+.basicButton:disabled:hover,
+.basicButton:disabled:active,
+.basicButton:disabled:focus {
+    color: #757575!important;
+    background: #F0F0F0!important;
+    position: relative;
+    top: 0;
+    cursor: default;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    border: solid 1px #b7b7b7!important;
+}
+
+.whiteButton {
+    color: #333333!important;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top, #fff, #ededed);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+
+.whiteButton:hover {
+    color: #333333!important;
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top, #fff, #dcdcdc);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+    border-color: #9A9A9A;
+}
+
+.whiteButton:active {
+    color: #333333!important;
+    -webkit-box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 1), inset 0 0px 1px rgba(0, 0, 0, 1)!important;
+    -moz-box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 1), inset 0 0px 1px rgba(0, 0, 0, 1)!important;
+    box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 1), inset 0 0px 1px rgba(0, 0, 0, 1)!important;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/lasku.css */
+
+.rowHandle {
+    cursor: pointer;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    width: 8px;
+    height: 16px;
+    margin: 0;
+    margin-bottom: 3px;
+    padding: 8px 5px;
+}
+
+.rowHandle:active {
+    cursor: pointer;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+table.lasku1 {
+    border-style: none;
+}
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/flexselect.css */
+
+.inputParent {
+    position: relative;
+}
+
+span.loadingicon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+    background-image: url('https://rule.neemia.fi/img/loading_small.gif');
+    background-position: 50% 50%;
+}
+
+span.emptyText {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+/*! CSS Used from: Embedded */
+
+.basicButton {
+    margin-left: 8px;
+}
+
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

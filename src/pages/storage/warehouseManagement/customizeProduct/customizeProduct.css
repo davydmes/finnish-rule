@@ -1,0 +1,47 @@
+/*! CSS Used from: https://rule.neemia.fi/css/style.css */
+
+
+/*! @import https://rule.neemia.fi/css/common.css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Tahoma, Geneva, sans-serif;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    padding: 2px 6px 2px 4px;
+}
+
+.valkonenteksti {
+    color: white;
+}
+
+.popup {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 620px;
+    height: 300px;
+}
+
+.popup td {
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+/*! end @import */
+
+
+/*! CSS Used from: Embedded */
+
+td.hd {
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,68 @@
+/*! CSS Used from: https://rule.neemia.fi/css/style.css */
+
+
+/*! @import https://rule.neemia.fi/css/common.css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Tahoma, Geneva, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    padding: 2px 6px 2px 4px;
+}
+
+#div_content {
+    padding: 10px;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.table-scroll {
+    overflow: scroll;
+}
+
+
+/*! end @import */
+
+
+/*! CSS Used from: https://rule.neemia.fi/css/table.css */
+
+.basic {
+    width: 100%;
+}
+
+.basic td {
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table.jono1 {
+    background-color: #DADADA;
+}
+
+table.jono1 td {
+    padding: 4px 4px 4px 4px;
+}
+
+table.jono1,
+table.jono1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.jono1 thead {
+    background-color: #545454;
+    color: white;
+}
